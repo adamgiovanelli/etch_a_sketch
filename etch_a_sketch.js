@@ -12,4 +12,4 @@ function createDivs(dim) {
 
 }
 
-createDivs(100);
+createDivs(10);
