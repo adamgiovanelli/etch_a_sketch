@@ -15,6 +15,17 @@ function createDivs(dim) {
 
 }
 
+function userInput () {
+    const dimInput = prompt('Enter number of rows/columns', '10');
+    return dimInput;
+}
+
+const userDims = userInput()
+
+if (Number.isInteger(userDims)){
+    createDivs(userDims)
+}
+
 createDivs(50);
 
 const allBlocks = document.querySelectorAll('.gridItems');

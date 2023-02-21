@@ -41,6 +41,7 @@ body {
     display: grid;
     /*grid-template-columns: repeat(16, 1fr);*/
     grid-auto-rows: auto;
+    background-color: white;
     
 }
 
@@ -48,6 +49,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
+    /*Only doing border right and bottom so there is no overlap between block borders*/
     border-right: 1px solid rgb(194, 186, 186);
     border-bottom: 1px solid rgb(194, 186, 186);
 }
