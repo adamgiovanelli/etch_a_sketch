@@ -26,8 +26,6 @@ if (Number.isInteger(userDims)){
     createDivs(userDims)
 }
 
-createDivs(50);
-
 const allBlocks = document.querySelectorAll('.gridItems');
 
 //mouseover turns blocks black
