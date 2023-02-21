@@ -20,11 +20,7 @@ function userInput () {
     return dimInput;
 }
 
-const userDims = userInput()
-
-if (Number.isInteger(userDims)){
-    createDivs(userDims)
-}
+createDivs(userInput());
 
 const allBlocks = document.querySelectorAll('.gridItems');
 
